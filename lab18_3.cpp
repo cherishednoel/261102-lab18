@@ -20,6 +20,7 @@ int main(){
 	
 	return 0;
 }
+
 vector<int> randomVector(unsigned int N){	
     vector<int> v;
     for(unsigned int i = 0; i < N; i++) v.push_back(rand()%10);
