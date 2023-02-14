@@ -30,7 +30,7 @@ void showVector(vector<int> v){
 	cout << "[";
 	for(unsigned int i = 0; i<v.size(); i++){
 		cout << v[i];
-		if(i==v.size()-1) cout << "]";
+		if(i == v.size()-1) cout << "]";
 		else cout << " ";
 	}
 }
