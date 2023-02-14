@@ -4,7 +4,7 @@
 #include<vector>
 using namespace std;
 
-vector<int> randomVector(int);
+vector<int> randomVector(unsigned int);
 void showVector(vector<int>);
 int dotProduct(vector<int>,vector<int>);
 
@@ -20,7 +20,6 @@ int main(){
 	
 	return 0;
 }
-
 vector<int> randomVector(unsigned int N){	
     vector<int> v;
     for(unsigned int i = 0; i < N; i++) v.push_back(rand()%10);
